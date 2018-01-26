@@ -14,12 +14,14 @@ body {
         grid-template-rows: repeat(8, 1fr);
     }
 
-    article {
+    .weekend {
         grid-row: 2 / 3;
         grid-column: span 1; 
+        background-color: #0070cc;
     }
 
     h3 {
+        font-size: 24px;
         margin-left: 10px;
         margin-top: 0px;
         margin-bottom: 0px
@@ -30,4 +32,15 @@ body {
         margin-top: 3px;
         margin-bottom: 0px
     }
+
+    input {
+        border-radius: 5px;
+        background-color: #5187b2;
+        margin-left: 5px;
+        border: 1px solid black;
+        color: black;
+        padding-left: 10px;
+    }
+
+    .test {}
 } 
