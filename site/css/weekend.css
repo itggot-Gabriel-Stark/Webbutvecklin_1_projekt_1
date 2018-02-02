@@ -18,6 +18,21 @@ body {
         margin-left: 30vw;
     }
 
+    h3 {
+        font-size: 24px;
+        margin-left: 10px;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        font-family: 'Roboto', sans-serif;
+    }
+
+    p {
+        margin-left: 10px;
+        margin-top: 3px;
+        margin-bottom: 0px;
+        margin-right: 10px;
+    }
+
     .wrapper {
         margin-top: 50px;
         width: 60vw;
