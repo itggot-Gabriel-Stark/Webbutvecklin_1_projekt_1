@@ -21,7 +21,7 @@ body {
     .wrapper {
         margin-top: 50px;
         width: 60vw;
-        height: 1000px;
+        height: 800px;
         display: grid;
         grid-template-columns: 1fr;
         grid-template-rows: repeat(8, 1fr);
@@ -34,6 +34,7 @@ body {
         margin-top: 0px;
         margin-bottom: 0px;
         font-family: 'Roboto', sans-serif;
+        color: white;
     }
 
     p {
@@ -41,6 +42,7 @@ body {
         margin-top: 3px;
         margin-bottom: 0px;
         margin-right: 10px;
+        color: white;
     }
 
     img {
