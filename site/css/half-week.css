@@ -18,6 +18,17 @@ body {
         margin-left: 30vw;
     }
 
+    footer {
+        margin-bottom: 0px;
+        width: 100vw;
+        height: 80px;
+        background-color: #0070cc;
+    }
+
+    footer p {
+        margin-left: 5px; 
+    }
+
     h3 {
         font-size: 24px;
         margin-left: 10px;
@@ -35,13 +46,41 @@ body {
         color: white;
     }
 
+    img {
+        max-width: 100%;
+        height: auto; 
+    }
+
     .wrapper {
         margin-top: 50px;
         width: 60vw;
-        height: 1000px;
+        height: auto;
         display: grid;
         grid-template-columns: 1fr;
-        grid-template-rows: repeat(8, 1fr);
+        grid-template-rows: repeat(5, 1fr);
         margin-top: 10px;
+    }
+    
+    .img {
+        grid-row: 1 / 2;
+        background-color: #0070cc;
+    }
+
+    .info_text {
+        grid-row: 2 / 5;
+        background-color: #0070cc;
+    }
+
+    input {
+        grid-row: 5 / 6;
+        margin-top: 33%;
+        margin-left: 10%;
+        margin-bottom: 33%;
+        margin-right: 10%;
+        background-color: #ff1209;
+        border-color: #ff1209;
+        border-radius: 10px;
+        color: white;
+        box-shadow: 2px 2px black;
     }
 }
