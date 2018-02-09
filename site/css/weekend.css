@@ -18,6 +18,17 @@ body {
         margin-left: 30vw;
     }
 
+    footer {
+        margin-bottom: 0px;
+        width: 100vw;
+        height: 80px;
+        background-color: #0070cc;
+    }
+
+    footer p {
+        margin-left: 5px; 
+    }
+
     h3 {
         font-size: 24px;
         margin-left: 10px;
@@ -43,10 +54,10 @@ body {
     .wrapper {
         margin-top: 50px;
         width: 60vw;
-        height: 600px;
+        height: auto;
         display: grid;
         grid-template-columns: 1fr;
-        grid-template-rows: repeat(4, 1fr);
+        grid-template-rows: repeat(5, 1fr);
         margin-top: 10px;
     }
 
@@ -56,12 +67,12 @@ body {
     }
 
     .info_text {
-        grid-row: 2 / 3;
+        grid-row: 2 / 5;
         background-color: #0070cc;
     }
 
     input {
-        grid-row: 4/5;
+        grid-row: 5 / 6;
         margin-top: 33%;
         margin-left: 10%;
         margin-bottom: 33%;
