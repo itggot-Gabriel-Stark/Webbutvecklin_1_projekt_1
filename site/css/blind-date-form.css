@@ -49,10 +49,48 @@ body {
     .wrapper {
         margin-top: 50px;
         width: 60vw;
-        height: auto;
+        height: 100vh;
         display: grid;
         grid-template-columns: 1fr;
-        grid-template-rows: repeat(5, 1fr);
+        grid-template-rows: repeat(6, 1fr);
         margin-top: 10px;
+    }
+
+    .name  {
+        grid-row: 1/2;
+    }
+
+    .age_you {
+        grid-row: 2/3;
+    }
+
+    .age_them {
+        grid-row: 3/4
+    }
+
+    .about_you {
+        grid-row: 4/5;
+    }
+
+    .about_them {
+        grid-row: 5/6;
+    }
+
+    .button {
+        grid-row: 6/7;
+        margin-top: 33%;
+        margin-left: 10%;
+        margin-bottom: 33%;
+        margin-right: 10%;
+        text-decoration: none;
+        background-color: #ff1209;
+        color: #ffffff;
+        border-top: 1px solid #ff1209;
+        border-right: 1px solid #ff1209;
+        border-bottom: 1px solid #ff1209;
+        border-left: 1px solid #ff1209;
+        text-align: center;
+        padding-top: 15px;
+        border-radius: 15px;
     }
 }
